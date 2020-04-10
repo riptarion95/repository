@@ -3,17 +3,20 @@
 <script src="https://cdn.jwplayer.com/libraries/DZBEAQ55.js"></script>
 <script>
 
-	jwplayer("player").setup({
-		width: "100%",
-		playlist: [{
-			sources: [{
-				file: "https://riptarion95.github.io/repository/route201.mp3"
-			}, {
-				file: "https://riptarion95.github.io/repository/route203.mp3"
-			}, {
-				file: "https://riptarion95.github.io/repository/route209.mp3"
+	document.addEventListener("DOMContentLoaded", function() { 
+		jwplayer("player").setup({
+			playlist: [{
+				sources: [{
+					file: "https://riptarion95.github.io/repository/route201.mp3"
+				}, {
+					file: "https://riptarion95.github.io/repository/route203.mp3"
+				}, {
+					file: "https://riptarion95.github.io/repository/route209.mp3"
+				}]
 			}]
-		}]
-	});
+		});
+	}
+
+
 
 </script>
